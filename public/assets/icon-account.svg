@@ -1,5 +1,5 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="tabler-icon-credit-card">
-<path id="Vector" d="M5 10.2857H19M8.33333 14.5714H8.34167M11.6667 14.5714H13.3333M5 8.57143C5 7.88944 5.26339 7.23539 5.73223 6.75315C6.20107 6.27092 6.83696 6 7.5 6H16.5C17.163 6 17.7989 6.27092 18.2678 6.75315C18.7366 7.23539 19 7.88944 19 8.57143V15.4286C19 16.1106 18.7366 16.7646 18.2678 17.2468C17.7989 17.7291 17.163 18 16.5 18H7.5C6.83696 18 6.20107 17.7291 5.73223 17.2468C5.26339 16.7646 5 16.1106 5 15.4286V8.57143Z" stroke="var(--stroke-0, #292929)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tabler-icon-card">
+<path id="Vector" d="M8 13.2857H22M11.3333 17.5714H11.3417M14.6667 17.5714H16.3333M8 11.5714C8 10.8894 8.26339 10.2354 8.73223 9.75315C9.20107 9.27092 9.83696 9 10.5 9H19.5C20.163 9 20.7989 9.27092 21.2678 9.75315C21.7366 10.2354 22 10.8894 22 11.5714V18.4286C22 19.1106 21.7366 19.7646 21.2678 20.2468C20.7989 20.7291 20.163 21 19.5 21H10.5C9.83696 21 9.20107 20.7291 8.73223 20.2468C8.26339 19.7646 8 19.1106 8 18.4286V11.5714Z" stroke="var(--stroke-0, #292929)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>
