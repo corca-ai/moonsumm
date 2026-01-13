@@ -114,7 +114,7 @@ function MenuItem({ icon, label, badge, onClick }: MenuItemProps) {
           alt={label}
           width={0}
           height={0}
-          className="w-auto h-auto max-w-[24px] max-h-[24px]"
+          className="w-auto h-auto max-w-[18px] max-h-[18px]"
           style={{ width: 'auto', height: 'auto' }}
         />
       </div>
