@@ -7,6 +7,7 @@ import LabSettingsModal from './LabSettingsModal';
 export default function ProfileMenu() {
   const [isOpen, setIsOpen] = useState(true);
   const [isLabModalOpen, setIsLabModalOpen] = useState(false);
+  const [labActiveCount, setLabActiveCount] = useState(0);
 
   return (
     <>
@@ -65,7 +66,7 @@ export default function ProfileMenu() {
                 <MenuItem
                   icon="/assets/icon-lab.svg"
                   label="실험실"
-                  badge="1"
+                  badge={labActiveCount > 0 ? String(labActiveCount) : undefined}
                   onClick={() => setIsLabModalOpen(true)}
                 />
                 <MenuItem icon="/assets/icon-settings.svg" label="설정" />
@@ -90,6 +91,7 @@ export default function ProfileMenu() {
       <LabSettingsModal
         isOpen={isLabModalOpen}
         onClose={() => setIsLabModalOpen(false)}
+        onCountChange={setLabActiveCount}
       />
     </>
   );
@@ -122,7 +124,7 @@ function MenuItem({ icon, label, badge, onClick }: MenuItemProps) {
         <p className="font-semibold text-[14px] text-[#292929]">{label}</p>
       </div>
       {badge && (
-        <div className="bg-red-500 rounded-full w-[20px] h-[20px] flex items-center justify-center">
+        <div className="bg-[#8F5BB7] rounded-full w-[20px] h-[20px] flex items-center justify-center">
           <p className="font-semibold text-[13px] text-white text-center">
             {badge}
           </p>

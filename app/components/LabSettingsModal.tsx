@@ -1,17 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 interface LabSettingsModalProps {
   isOpen: boolean;
   onClose: () => void;
+  onCountChange?: (count: number) => void;
 }
 
-export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalProps) {
+export default function LabSettingsModal({ isOpen, onClose, onCountChange }: LabSettingsModalProps) {
   const [setting1, setSetting1] = useState(false);
   const [setting2, setSetting2] = useState(false);
   const [setting4, setSetting4] = useState(false);
+  // Calculate and update active count whenever settings change
+  useEffect(() => {
+    const count = [setting1, setting2, setting4].filter(Boolean).length;
+    onCountChange?.(count);
+  }, [setting1, setting2, setting4, onCountChange]);
+
 
   if (!isOpen) return null;
 
@@ -65,7 +72,7 @@ export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalPr
             {/* Settings Item 1 */}
             <div className={`p-[20px] flex gap-[20px] items-center justify-between ${setting1 ? 'bg-[#f4eff8]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[14px] text-[#292929]">
+                <p className="font-bold text-[16px] text-[#292929]">
                   사용자 설정 프롬프트 2.0
                 </p>
                 <p className="font-normal text-[13px] text-[#292929] leading-[1.4]">
@@ -96,11 +103,11 @@ export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalPr
             {/* Settings Item 2 */}
             <div className={`p-[20px] flex gap-[20px] items-center justify-between ${setting2 ? 'bg-[#f4eff8]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[14px] text-[#292929]">
+                <p className="font-bold text-[16px] text-[#292929]">
                   나의 대시보드
                 </p>
                 <p className="font-normal text-[13px] text-[#292929] leading-[1.4]">
-                  내가 문라이트에서 읽었던 논문들 관련된 모든 액션데이터들을 시각화해서 차트와 그래프 등으로 보여주는 기능입니다. 스위치를 켜면 프로필 메뉴에 '대시보드' 가 추가됩니다.
+                  내가 문라이트에서 읽었던 논문들과 관련된 모든 액션 데이터들을 시각화 해서 차트와 그래프 등으로 보여주는 기능입니다. 스위치를 켜면 프로필 메뉴에 '대시보드' 가 추가됩니다.
                 </p>
               </div>
               <div className="relative group flex-shrink-0">
@@ -127,11 +134,11 @@ export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalPr
             {/* Settings Item 3 - Button */}
             <div className="p-[20px] flex gap-[20px] items-center justify-between">
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[14px] text-[#292929]">
+                <p className="font-bold text-[16px] text-[#292929]">
                   AI-Scientist
                 </p>
                 <p className="font-normal text-[13px] text-[#292929] leading-[1.4]">
-                  연구와 관련된 질문을 입력하면 다양한 연관 논문들과 연결된관계도맵을 통해서 네비게이션할 수 있으며 자세한 부가 정보들을 확인해 볼 수 있습니다.
+                  연구와 관련된 질문을 입력하면 다양한 연관 논문들과 연결된 관계도 맵을 통해서 이동할 수 있으며 자세한 내용들을 확인해 볼 수 있습니다.
                 </p>
               </div>
               <div className="relative group flex-shrink-0">
@@ -159,11 +166,11 @@ export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalPr
             {/* Settings Item 4 */}
             <div className={`p-[20px] flex gap-[20px] items-center justify-between ${setting4 ? 'bg-[#f4eff8]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[14px] text-[#292929]">
+                <p className="font-bold text-[16px] text-[#292929]">
                   오토 하이라이트 2.0
                 </p>
                 <p className="font-normal text-[13px] text-[#292929] leading-[1.4]">
-                  오토하이라이트에 새로운 키워드를 추가.편집하고 컬러를 바꾸거나 체크 빈도수를 상세 조정할 수 있습니다.
+                  오토 하이라이트에 새로운 키워드를 추가,편집하고 컬러를 바꾸거나 체크 빈도수를 상세 조정할 수 있습니다.
                 </p>
               </div>
               <div className="relative group flex-shrink-0">
@@ -191,7 +198,7 @@ export default function LabSettingsModal({ isOpen, onClose }: LabSettingsModalPr
 
           {/* Footer Note */}
           <div className="p-[20px] flex items-center justify-start border-t border-[#d4d4d8]">
-            <p className="font-normal text-[13px] text-[#696969] leading-[1.4] text-left">
+            <p className="font-normal text-[12px] text-[#696969] leading-[1.4] text-left">
               *여기에 소개된 기능들은 실험 결과에 따라서 <br />제품 업데이트에 포함되거나 다시 없어질 수 있습니다.
             </p>
           </div>
