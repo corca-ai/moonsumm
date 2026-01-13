@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-close-on">
+<g clip-path="url(#clip0_3309_2231)">
+<circle id="Ellipse 4501" cx="12" cy="12" r="12" transform="rotate(180 12 12)" fill="var(--fill-0, #D9D9D9)"/>
+<g id="icon-x" clip-path="url(#clip1_3309_2231)">
+<path id="Vector (Stroke)" d="M8.64209 16.417C8.3492 16.7099 7.87346 16.7099 7.58057 16.417C7.28803 16.1242 7.28803 15.6493 7.58057 15.3564L10.9399 11.998L7.58057 8.63965C7.28773 8.34675 7.28769 7.871 7.58057 7.57812C7.87344 7.28525 8.34919 7.28528 8.64209 7.57812L12.0005 10.9375L15.3589 7.57812C15.6517 7.28559 16.1266 7.28559 16.4194 7.57812C16.7123 7.87102 16.7123 8.34675 16.4194 8.63965L13.062 11.998L16.4194 15.3564C16.7123 15.6493 16.7123 16.1241 16.4194 16.417C16.1265 16.7099 15.6518 16.7099 15.3589 16.417L12.0005 13.0596L8.64209 16.417Z" fill="var(--fill-0, #71717A)"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3309_2231">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+<clipPath id="clip1_3309_2231">
+<rect width="10" height="10" fill="white" transform="matrix(-1 0 0 -1 17 17)"/>
+</clipPath>
+</defs>
+</svg>

@@ -14,7 +14,7 @@ export default function ProfileMenu() {
         {/* Profile Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-[#a69db1] flex items-center justify-center rounded-full w-[40px] h-[40px] hover:opacity-90 transition-opacity"
+          className="bg-[#a69db1] flex items-center justify-center rounded-full w-[40px] h-[40px] hover:opacity-90 transition-opacity cursor-pointer"
         >
           <Image
             src="/assets/profile-icon.svg"
