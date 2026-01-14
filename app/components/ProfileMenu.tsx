@@ -1,3 +1,6 @@
+
+
+
 'use client';
 
 import { useState } from 'react';
@@ -48,10 +51,10 @@ export default function ProfileMenu() {
                 </div>
                 <div className="flex flex-col gap-[2px]">
                   <p className="font-bold text-[13px] text-[#292929]">
-                    Moonlighter
+                    Username
                   </p>
                   <p className="font-normal text-[12px] text-[#696969]">
-                    lighter@corca.ai
+                    username@corca.ai
                   </p>
                 </div>
               </div>
