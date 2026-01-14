@@ -150,7 +150,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
                   aria-label="AI-Scientist 바로가기"
                 >
                   <Image
-                    src="/assets/icon-next-new.svg"
+                    src="/assets/icon-next-off.svg"
                     alt="Next"
                     width={24}
                     height={24}
