@@ -28,3 +28,8 @@ body {
 #__next-build-watcher {
   display: none !important;
 }
+
+/* Hide Next.js route announcer (bottom left N icon) */
+#__next-route-announcer {
+  display: none !important;
+}
