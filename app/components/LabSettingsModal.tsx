@@ -146,21 +146,21 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
                 <button
                   type="button"
                   onClick={() => window.open('https://corca-episteme.vercel.app/explorer', '_blank')}
-                  className="border-2 border-[#a1a1aa] w-[40px] h-[40px] rounded-full flex items-center justify-center cursor-pointer"
+                  className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer"
                   aria-label="AI-Scientist 바로가기"
                 >
                   <Image
                     src="/assets/icon-next-off.svg"
                     alt="Next"
-                    width={24}
-                    height={24}
+                    width={40}
+                    height={40}
                     className="block group-hover:hidden"
                   />
                   <Image
                     src="/assets/icon-next-on.svg"
                     alt="Next"
-                    width={24}
-                    height={24}
+                    width={40}
+                    height={40}
                     className="hidden group-hover:block"
                   />
                 </button>
