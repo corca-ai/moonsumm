@@ -73,7 +73,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
             {/* Settings Item 1 */}
             <div className={`p-[15px] flex gap-[20px] items-center justify-between ${setting1 ? 'bg-[#f5f5f5]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[16px] text-[#8F5BB7]">
+                <p className="font-bold text-[16px] text-[#000000]">
                   사용자 설정 프롬프트 2.0
                 </p>
                 <p className="font-normal text-[12px] text-[#292929] leading-[1.4] break-keep">
@@ -104,7 +104,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
             {/* Settings Item 2 */}
             <div className={`p-[15px] flex gap-[20px] items-center justify-between ${setting2 ? 'bg-[#f5f5f5]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[16px] text-[#8F5BB7]">
+                <p className="font-bold text-[16px] text-[#000000]">
                   나의 대시보드
                 </p>
                 <p className="font-normal text-[12px] text-[#292929] leading-[1.4] break-keep">
@@ -135,7 +135,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
             {/* Settings Item 3 - Button */}
             <div className="p-[15px] flex gap-[20px] items-center justify-between">
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[15px] text-[#8F5BB7]">
+                <p className="font-bold text-[15px] text-[#000000]">
                   AI-Scientist
                 </p>
                 <p className="font-normal text-[12px] text-[#292929] leading-[1.4] break-keep">
@@ -174,7 +174,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
             {/* Settings Item 4 */}
             <div className={`p-[15px] flex gap-[20px] items-center justify-between ${setting4 ? 'bg-[#f5f5f5]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[16px] text-[#8F5BB7]">
+                <p className="font-bold text-[16px] text-[#000000]">
                   오토 하이라이트 2.0
                 </p>
                 <p className="font-normal text-[12px] text-[#292929] leading-[1.4] break-keep">
@@ -205,7 +205,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
             {/* Settings Item 5 */}
             <div className={`p-[15px] flex gap-[20px] items-center justify-between ${setting5 ? 'bg-[#f5f5f5]' : ''}`}>
               <div className="flex-1 flex flex-col gap-[4px]">
-                <p className="font-bold text-[16px] text-[#8F5BB7]">
+                <p className="font-bold text-[16px] text-[#000000]">
                   라이브러리 2.0
                 </p>
                 <p className="font-normal text-[12px] text-[#292929] leading-[1.4] break-keep">

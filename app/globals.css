@@ -33,3 +33,13 @@ body {
 #__next-route-announcer {
   display: none !important;
 }
+
+/* Hide Next.js development indicator icon */
+nextjs-portal {
+  display: none !important;
+}
+
+/* Hide Turbopack indicator */
+[data-nextjs-turbopack-indicator] {
+  display: none !important;
+}
