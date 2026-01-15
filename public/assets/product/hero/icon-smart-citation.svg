@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24.7917 24.8625" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1272629128">
+<path id="Rectangle 1654" d="M1.0625 20.6125C1.0625 22.3729 2.48959 23.8 4.25 23.8L20.5417 23.8C22.3021 23.8 23.7292 22.3729 23.7292 20.6125" stroke="var(--stroke-0, #403050)" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Rectangle 1655" d="M1.0625 4.25C1.0625 2.48959 2.48959 1.0625 4.25 1.0625L20.5417 1.0625C22.3021 1.0625 23.7292 2.48959 23.7292 4.25" stroke="var(--stroke-0, #403050)" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Group 1272629121">
+<path id="Rectangle 1736" d="M6.55107 17.4626C8.10019 17.1871 10.2698 15.718 10.2698 10.071L10.2698 10.0251C10.2698 8.65589 9.15986 7.54593 7.79065 7.54593C6.42145 7.54593 5.31149 8.65589 5.31149 10.0251" stroke="var(--stroke-0, #403050)" stroke-width="2.125" stroke-linecap="round"/>
+<path id="Rectangle 1737" d="M16.0671 17.4626C17.6162 17.1871 19.7858 15.718 19.7858 10.071L19.7858 10.0251C19.7858 8.65589 18.6759 7.54593 17.3067 7.54593C15.9375 7.54593 14.8275 8.65589 14.8275 10.0251" stroke="var(--stroke-0, #403050)" stroke-width="2.125" stroke-linecap="round"/>
+<ellipse id="Ellipse 4486" cx="7.79396" cy="10.0262" rx="2.47919" ry="2.47919" transform="rotate(180 7.79396 10.0262)" fill="var(--fill-0, #403050)" stroke="var(--stroke-0, #403050)" stroke-width="2.125"/>
+<ellipse id="Ellipse 4487" cx="17.3066" cy="10.0262" rx="2.47919" ry="2.47919" transform="rotate(180 17.3066 10.0262)" fill="var(--fill-0, #403050)" stroke="var(--stroke-0, #403050)" stroke-width="2.125"/>
+</g>
+</g>
+</svg>
