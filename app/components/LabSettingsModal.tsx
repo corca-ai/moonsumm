@@ -36,7 +36,7 @@ export default function LabSettingsModal({ isOpen, onClose, onCountChange }: Lab
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="border-b border-[#d4d4d8] flex items-start justify-between px-[20px] py-[16px]">
+          <div className="flex items-start justify-between px-[20px] py-[16px]">
             <div className="flex flex-col gap-[8px]">
               <p className="font-bold text-[15px] text-[#303030] leading-[1.3]">
                 문라이트 실험실
